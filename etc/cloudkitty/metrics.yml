@@ -6,6 +6,7 @@ metrics:
       - id
       - user_id
       - project_id
+      - flavor_name
     metadata:
       - flavor_name
       - flavor_id
