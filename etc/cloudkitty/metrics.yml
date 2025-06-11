@@ -29,6 +29,7 @@ metrics:
     extra_args:
       aggregation_method: mean
       resource_type: image
+      force_granularity: 300
 
   volume.size:
     unit: GiB
@@ -83,6 +84,7 @@ metrics:
     extra_args:
       aggregation_method: mean
       resource_type: network
+      force_granularity: 300
 
   radosgw.objects.size:
     unit: GiB
@@ -94,3 +96,4 @@ metrics:
     extra_args:
       aggregation_method: mean
       resource_type: ceph_account
+      force_granularity: 300
